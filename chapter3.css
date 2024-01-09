@@ -1,0 +1,69 @@
+.box {
+  width: 200px;
+  margin-bottom: 20px;
+  padding: 50px;
+  border: 50px solid red;
+}
+
+.green {
+  border-color: green;
+}
+
+.blue {
+  border-color: blue;
+}
+
+.color-change {
+  border-color: #9b59b6;
+}
+
+.display {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+h2 {
+  color: #9b59b6;
+}
+
+p {
+  font-size: 16px;
+  font-family: Verdana;
+  font-style: italic;
+}
+
+.sub-header {
+  color: #2980b9;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #2980b9;
+}
+
+h2::before {
+  content: "Topic: ";
+}
+
+.challenge2 {
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+  padding: 10%;
+}
+
+h2:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
